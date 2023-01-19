@@ -319,10 +319,22 @@ html, body {
     border-radius: 5px;
     
   } 
+
+  .header-image2{ 
+    background-image:url("../img/ice.jpg"); 
+    height: 220px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: #fdf6f6;
+    border-radius: 5px;
+    
+  } 
   .header-text { 
-    text-align:center; 
+    text-align:match-parent; 
     position:relative;
-    top: 50%; 
+    top: 80%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     color: rgb(255, 255, 255); 
@@ -342,11 +354,11 @@ html, body {
 
 .header-text a {
     padding: 6px 7px 4px;
-    font-size: 20px;
-    border: 0px solid #fff;
-    border-radius: 50px;
+    font-size: 50%;
+    border: 2px solid #fff;
+    border-radius: 5px;
     color: #fff;
-    background-color: rgb(10, 0, 0);
+    background-color: rgb(10, 9, 0);
 }
 
 .header-text a:hover {
